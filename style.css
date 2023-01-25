@@ -1,0 +1,61 @@
+header {
+    color: white;
+}
+
+h1 {
+    background-color: #004175;
+    border-bottom: 3px solid #89deef;
+    font-family: Open Sans, Oswald;
+    color: white;
+    padding: 15px;
+    font-size: 120%;
+    padding-left: 30px;
+}
+
+h2 {
+    background-color: white;
+    font-family: Open Sans, Oswald;
+    color: black;
+    font-size: 110%;
+    padding-left: 30px;
+}
+
+body {
+    font-family: open sans;
+}
+
+.adoptform {
+    font-size: 25%;
+}
+
+.traits {
+    display: flex;
+    /* need this to activate flex  */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.traits>p {
+    /* selects children of a class  */
+    background-color: #89DEEF;
+    padding: 10px;
+    margin: 0px 10px 10px 0px;
+    /* top right bottom left like a clock  */
+    border-radius: 25px;
+    /* controls the roundness or sharpness of the box  */
+}
+
+#dog-container {
+    /* selects id */
+    border: solid purple;
+}
+
+.dog {
+    width: 25%;
+    border: 3px solid pink;
+}
+
+img {
+    width: 200%;
+}
