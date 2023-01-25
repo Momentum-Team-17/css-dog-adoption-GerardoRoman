@@ -26,6 +26,8 @@ body {
 
 .adoptform {
     font-size: 25%;
+    font-family: open sans;
+    padding-left: 30px;
 }
 
 .traits {
@@ -44,7 +46,9 @@ body {
     /* top right bottom left like a clock  */
     border-radius: 25px;
     /* controls the roundness or sharpness of the box  */
+    font-size: 50%;
 }
+
 
 #dog-container {
     /* selects id */
@@ -52,13 +56,31 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0px 30px 0px 30px;
 }
 
 .dog {
-    width: 30%;
+    width: 32%;
     border: 3px solid pink;
 }
 
 img {
     width: 100%;
+}
+
+.footer {
+    display: flex;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.donate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
